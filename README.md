@@ -18,7 +18,6 @@ The container exports data on exit.
 
 | Port | Purpose |
 | -- | -- |
-| Emulator | Port |
 | Emulator Suite UI | 4000 |
 | Firebase Hosting | 5000 |
 | Cloud Functions | 5001 |
