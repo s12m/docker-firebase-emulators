@@ -2,7 +2,7 @@ FROM node:20.2.0-bullseye-slim
 
 RUN apt-get update -qq && \
     apt-get install -y openjdk-17-jre-headless && \
-    npm install -g firebase-tools@12.2.1
+    npm install -g firebase-tools@12.4.0
 
 ENV WORKDIR="/opt/firebase"
 WORKDIR ${WORKDIR}
